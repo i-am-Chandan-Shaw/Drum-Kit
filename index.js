@@ -22,19 +22,19 @@ document.addEventListener("keypress",function(event){
 function press(key){  
 		switch (key){
 			case "w":
-				var s= new Audio("sounds/crash.mp3");
+				var s= new Audio("crash.mp3");
 				s.play();
 				break;
 			case "a":
-				var s= new Audio("sounds/kick-bass.mp3");
+				var s= new Audio("kick-bass.mp3");
 				s.play();
 				break;
 			case "s":
-				var s= new Audio("sounds/snare.mp3");
+				var s= new Audio("snare.mp3");
 				s.play();
 				break;
 			case "d":
-				var s= new Audio("sounds/tom-1.mp3");
+				var s= new Audio("tom-1.mp3");
 				s.play();
 				break;
 			case "j":
@@ -42,11 +42,11 @@ function press(key){
 				s.play();
 				break;
 			case "k":
-				var s= new Audio("sounds/tom-3.mp3");
+				var s= new Audio("tom-3.mp3");
 				s.play();
 				break;
 			case "l":
-				var s= new Audio("sounds/tom-4.mp3");
+				var s= new Audio("tom-4.mp3");
 				s.play();
 				break;
 			default: console.log(i);
