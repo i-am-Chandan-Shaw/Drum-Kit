@@ -38,7 +38,7 @@ function press(key){
 				s.play();
 				break;
 			case "j":
-				var s= new Audio("sounds/tom-2.mp3");
+				var s= new Audio("tom-2.mp3");
 				s.play();
 				break;
 			case "k":
